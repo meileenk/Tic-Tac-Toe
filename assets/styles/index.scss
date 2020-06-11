@@ -1,1 +1,67 @@
 @import '~bootstrap/scss/bootstrap';
+// legend{
+//   font-family: 'Fjalla One', sans-serif;
+// }
+#mySidenav a {
+position: absolute;
+left: -80px;
+transition: 0.3s;
+padding: 15px;
+width: 100px;
+text-decoration: none;
+font-size: 20px;
+color: white;
+border-radius: 0 5px 5px 0;
+}
+#mySidenav a:hover {
+  left: 0;
+}
+
+#signIn {
+  top: 20px;
+  background-color: #9370DB;
+}
+
+#signUp {
+  top: 80px;
+  background-color: #48b4e0;
+}
+h1 {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  color: white;
+}
+table {
+	border-collapse:collapse;
+  margin:auto;
+}
+
+td {
+	background-color: blue;
+	border: 3px solid black;
+	font-size:80px;
+	color:#ffffff;
+	border-radius: 10px 10px 10px 10px;
+  margin: auto;
+}
+.btn {
+  border: 20px 20px;
+  background-color:  #48b4e0;
+  font-size: 16px;
+  cursor: pointer;
+  margin: auto;
+}
+
+.btn:hover {background: #eee;}
+
+.success {color: green;}
+.info {color: dodgerblue;}
+.warning {color: orange;}
+.danger {color: red;}
+.default {color: black;}
+
+body{
+  background: url("https://i.imgur.com/S3Rnj8h.jpg");
+  background-position: cover;
+  background-repeat: repeat;
+}
